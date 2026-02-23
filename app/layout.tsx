@@ -11,8 +11,14 @@ export const metadata: Metadata = {
   description: "Real-time dashboard for the Basirah App Factory pipeline. Monitor builds, gate scores, deployments, and revenue.",
   openGraph: {
     title: "FactoryOS — App Factory Control Panel",
-    description: "Your agent's production line, visualized.",
+    description: "Your agent's production line, visualized. 6-stage pipeline with deterministic quality gates.",
     type: "website",
+    url: "https://factoryos-app.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FactoryOS — App Factory Control Panel",
+    description: "Your agent's production line, visualized.",
   },
 };
 
